@@ -1,0 +1,31 @@
+{
+  "name": "CloudipspOptical",
+  "version": "0.1.0",
+  "summary": "A short description of CloudipspOptical.",
+  "homepage": "https://github.com/CloudipspOptical/ios-sdk",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Maxim Kozenko": "max.dnu@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/CloudipspOptical/ios-sdk.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Pod/Classes/**/*",
+  "public_header_files": "Pod/Classes/**/*.h",
+  "frameworks": "UIKit",
+  "dependencies": {
+    "Cloudipsp": [
+
+    ],
+    "CardIO": [
+
+    ]
+  }
+}

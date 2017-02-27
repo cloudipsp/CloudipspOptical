@@ -1,0 +1,1 @@
+../../../Cloudipsp/Pod/Classes/Models/PSCurrency.h

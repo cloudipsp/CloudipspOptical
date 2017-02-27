@@ -1,0 +1,8 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/CardIO" "${PODS_ROOT}/Headers/Public/Cloudipsp" "${PODS_ROOT}/Headers/Public/CloudipspOptical"
+LIBRARY_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/Cloudipsp" "$PODS_CONFIGURATION_BUILD_DIR/CloudipspOptical" $(inherited) "${PODS_ROOT}/CardIO/CardIO"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/CardIO" -isystem "${PODS_ROOT}/Headers/Public/Cloudipsp" -isystem "${PODS_ROOT}/Headers/Public/CloudipspOptical"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"CardIO" -l"c++" -l"opencv_core" -l"opencv_imgproc" -framework "AVFoundation" -framework "Accelerate" -framework "AudioToolbox" -framework "CoreMedia" -framework "CoreVideo" -framework "MobileCoreServices" -framework "OpenGLES" -framework "QuartzCore" -framework "Security" -framework "UIKit"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}/Pods

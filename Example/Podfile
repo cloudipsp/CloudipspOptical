@@ -1,11 +1,11 @@
-use_frameworks!
+#use_frameworks!
 
 target 'CloudipspOptical_Example' do
+    
   pod 'CloudipspOptical', :path => '../'
 
   target 'CloudipspOptical_Tests' do
     inherit! :search_paths
-
     
   end
 end
