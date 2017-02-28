@@ -1,6 +1,6 @@
 # CloudipspOptical
 
-[![CI Status](http://img.shields.io/travis/dNadiia/CloudipspOptical.svg?style=flat)](https://travis-ci.org/dNadiia/CloudipspOptical)
+[![CI Status](http://img.shields.io/travis/cloudipsp/CloudipspOptical.svg?style=flat)](https://travis-ci.org/cloudipsp/CloudipspOptical)
 [![Version](https://img.shields.io/cocoapods/v/CloudipspOptical.svg?style=flat)](http://cocoapods.org/pods/CloudipspOptical)
 [![License](https://img.shields.io/cocoapods/l/CloudipspOptical.svg?style=flat)](http://cocoapods.org/pods/CloudipspOptical)
 [![Platform](https://img.shields.io/cocoapods/p/CloudipspOptical.svg?style=flat)](http://cocoapods.org/pods/CloudipspOptical)
@@ -22,7 +22,7 @@ pod "CloudipspOptical"
 
 ## Author
 
-dNadiia, nadiia.dovbysh@gmail.com
+Maxim Kozenko, max.dnu@gmail.com
 
 ## License
 
