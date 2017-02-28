@@ -22,6 +22,7 @@
 		83BC966244EBD848764DE3793CE9D93E /* PSUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D42FACC8C68F5F2D6B1979DC0A5B4F6 /* PSUtils.m */; };
 		85C683391E6581C700B3C896 /* PSOpticalBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C683371E6581C700B3C896 /* PSOpticalBridge.m */; };
 		85C683401E658F8A00B3C896 /* PSOpticalBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 85C683361E6581C700B3C896 /* PSOpticalBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85C683421E659C8F00B3C896 /* PSCloudipspOptical.h in Headers */ = {isa = PBXBuildFile; fileRef = 85C683411E659C2C00B3C896 /* PSCloudipspOptical.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		876656FBF26737A12DF97F3DC96647A4 /* PSCloudipspApi.m in Sources */ = {isa = PBXBuildFile; fileRef = BF14A5E857C57DE1FE91A2637DB13986 /* PSCloudipspApi.m */; };
 		8DB76F4222ECC481895C047C5C9F0398 /* PSLocalization.m in Sources */ = {isa = PBXBuildFile; fileRef = 228DE69170E19EABBE05233F8D0FDB37 /* PSLocalization.m */; };
 		8E7A96F4DB611F7B771D00098D6FE2F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
@@ -109,6 +110,7 @@
 		84ABCE708BF4D8ABE50D15C50E29F771 /* CardIOPaymentViewControllerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CardIOPaymentViewControllerDelegate.h; path = CardIO/CardIOPaymentViewControllerDelegate.h; sourceTree = "<group>"; };
 		85C683361E6581C700B3C896 /* PSOpticalBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSOpticalBridge.h; sourceTree = "<group>"; };
 		85C683371E6581C700B3C896 /* PSOpticalBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSOpticalBridge.m; sourceTree = "<group>"; };
+		85C683411E659C2C00B3C896 /* PSCloudipspOptical.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSCloudipspOptical.h; sourceTree = "<group>"; };
 		8B3C8019A7759F63210D51D6C53D7C33 /* PSCard.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PSCard.m; path = Pod/Classes/Models/PSCard.m; sourceTree = "<group>"; };
 		8CAEC5EC59C6F4B8D3D1827C7459E8BB /* Pods-CloudipspOptical_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CloudipspOptical_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -270,19 +272,19 @@
 		9CD8EB2170B9330F9AD3C7B0C084BF40 /* CloudipspOptical */ = {
 			isa = PBXGroup;
 			children = (
-				B01CD68231993E543BEF76F4E6E2A9E3 /* Pod */,
+				B01CD68231993E543BEF76F4E6E2A9E3 /* CloudipspOptical */,
 				30BC6278E90835EB1680A19156370A80 /* Support Files */,
 			);
 			name = CloudipspOptical;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		B01CD68231993E543BEF76F4E6E2A9E3 /* Pod */ = {
+		B01CD68231993E543BEF76F4E6E2A9E3 /* CloudipspOptical */ = {
 			isa = PBXGroup;
 			children = (
 				DD09FC1BCD1E60F8812B518FB5C2F40B /* Classes */,
 			);
-			path = Pod;
+			path = CloudipspOptical;
 			sourceTree = "<group>";
 		};
 		B517DFE87CE4DB7E0F36E58D23DDD7D9 /* Products */ = {
@@ -317,6 +319,7 @@
 			children = (
 				85C683361E6581C700B3C896 /* PSOpticalBridge.h */,
 				85C683371E6581C700B3C896 /* PSOpticalBridge.m */,
+				85C683411E659C2C00B3C896 /* PSCloudipspOptical.h */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -417,6 +420,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85C683421E659C8F00B3C896 /* PSCloudipspOptical.h in Headers */,
 				85C683401E658F8A00B3C896 /* PSOpticalBridge.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

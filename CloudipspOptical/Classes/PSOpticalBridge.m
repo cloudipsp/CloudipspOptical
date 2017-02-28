@@ -1,6 +1,6 @@
 //
 //  PSOpticalBridge.m
-//  Pods
+//  CloudipspOptical
 //
 //  Created by Nadiia Dovbysh on 2/28/17.
 //
@@ -34,8 +34,8 @@
 - (void)userDidProvideCreditCardInfo:(CardIOCreditCardInfo *)cardInfo inPaymentViewController:(CardIOPaymentViewController *)paymentViewController
 {
     self.cardInputView.cardNumberTextField.text = cardInfo.redactedCardNumber;
-    self.cardInputView.expMonthTextField.text = [NSString stringWithFormat:@"%lu", cardInfo.expiryMonth];
-    self.cardInputView.expYearTextField.text = [NSString stringWithFormat:@"%lu", cardInfo.expiryYear];
+    self.cardInputView.expMonthTextField.text = [NSString stringWithFormat:@"%ld", cardInfo.expiryMonth];
+    self.cardInputView.expYearTextField.text = [NSString stringWithFormat:@"%ld", cardInfo.expiryYear];
     self.cardInputView.cvvTextField.text = cardInfo.cvv;
     
     [paymentViewController dismissViewControllerAnimated:YES completion:nil];

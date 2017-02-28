@@ -1,6 +1,6 @@
 //
 //  PSOpticalBridge.h
-//  Pods
+//  CloudipspOptical
 //
 //  Created by Nadiia Dovbysh on 2/28/17.
 //

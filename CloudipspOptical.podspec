@@ -16,8 +16,8 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.ios.deployment_target = '8.0'
-  s.source_files = 'Pod/Classes/**/*'
-  s.public_header_files = 'Pod/Classes/**/*.h'
+  s.source_files = 'CloudipspOptical/Classes/**/*'
+  s.public_header_files = 'CloudipspOptical/Classes/**/*.h'
   s.frameworks = 'UIKit'
   s.dependency 'Cloudipsp'
   s.dependency 'CardIO'
