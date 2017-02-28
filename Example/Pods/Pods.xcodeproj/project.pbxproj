@@ -23,6 +23,8 @@
 		85C683391E6581C700B3C896 /* PSOpticalBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C683371E6581C700B3C896 /* PSOpticalBridge.m */; };
 		85C683401E658F8A00B3C896 /* PSOpticalBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 85C683361E6581C700B3C896 /* PSOpticalBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		85C683421E659C8F00B3C896 /* PSCloudipspOptical.h in Headers */ = {isa = PBXBuildFile; fileRef = 85C683411E659C2C00B3C896 /* PSCloudipspOptical.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85C683431E65A5FE00B3C896 /* PSOpticalBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C683371E6581C700B3C896 /* PSOpticalBridge.m */; };
+		85C683461E65A67000B3C896 /* PSCloudipspOptical.h in Headers */ = {isa = PBXBuildFile; fileRef = 85C683411E659C2C00B3C896 /* PSCloudipspOptical.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		876656FBF26737A12DF97F3DC96647A4 /* PSCloudipspApi.m in Sources */ = {isa = PBXBuildFile; fileRef = BF14A5E857C57DE1FE91A2637DB13986 /* PSCloudipspApi.m */; };
 		8DB76F4222ECC481895C047C5C9F0398 /* PSLocalization.m in Sources */ = {isa = PBXBuildFile; fileRef = 228DE69170E19EABBE05233F8D0FDB37 /* PSLocalization.m */; };
 		8E7A96F4DB611F7B771D00098D6FE2F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
@@ -317,9 +319,9 @@
 		DD09FC1BCD1E60F8812B518FB5C2F40B /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				85C683411E659C2C00B3C896 /* PSCloudipspOptical.h */,
 				85C683361E6581C700B3C896 /* PSOpticalBridge.h */,
 				85C683371E6581C700B3C896 /* PSOpticalBridge.m */,
-				85C683411E659C2C00B3C896 /* PSCloudipspOptical.h */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -425,6 +427,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		85C683441E65A64F00B3C896 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85C683461E65A67000B3C896 /* PSCloudipspOptical.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -469,6 +479,7 @@
 			buildPhases = (
 				FD116E09EF9ED8E4E50EAE64B5A15CCE /* Sources */,
 				A5CFC706E57953CA24D9B9C86D34C538 /* Frameworks */,
+				85C683441E65A64F00B3C896 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -560,6 +571,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85C683431E65A5FE00B3C896 /* PSOpticalBridge.m in Sources */,
 				F986C2DB17784346DC75ECCFD817D1CC /* CloudipspOptical-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -8,7 +8,6 @@
 
 #import "PSOpticalBridge.h"
 #import <CardIO.h>
-#import <Cloudipsp/PSCloudipsp.h>
 
 @interface PSOpticalBridge() <CardIOPaymentViewControllerDelegate>
 

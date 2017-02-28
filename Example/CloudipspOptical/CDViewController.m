@@ -116,6 +116,11 @@ static NSString * const resultSegue = @"resultSegue";
     [self.cardInputView test];
 }
 
+- (IBAction)scanCard:(UIButton *)sender {
+    PSOpticalBridge *opticalBridge = [[PSOpticalBridge alloc] init];
+    [opticalBridge startScan:self aCardInputView:self.cardInputView];
+}
+
 - (IBAction)pay:(UIButton *)sender {
     [self.view endEditing:YES];
     if ([self isValidFields]) {

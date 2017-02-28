@@ -25,7 +25,7 @@
                                 <rect key="frame" x="0.0" y="20" width="375" height="647"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CbF-X4-VOr">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="531"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="569"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Amount:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3pI-sO-7Np">
                                                 <rect key="frame" x="20" y="20" width="55" height="17"/>
@@ -91,7 +91,7 @@
                                                 </constraints>
                                             </view>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="37u-6g-uQr">
-                                                <rect key="frame" x="20" y="481" width="335" height="30"/>
+                                                <rect key="frame" x="20" y="519" width="335" height="30"/>
                                                 <color key="backgroundColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Pay">
                                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -114,9 +114,25 @@
                                                 </connections>
                                             </button>
                                             <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="G2r-gZ-931">
-                                                <rect key="frame" x="169" y="247" width="37" height="37"/>
+                                                <rect key="frame" x="169" y="266" width="37" height="37"/>
                                                 <color key="color" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </activityIndicatorView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VtY-Te-Qir">
+                                                <rect key="frame" x="20" y="481" width="335" height="30"/>
+                                                <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <state key="normal" title="Scan">
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="scanCard:" destination="EGQ-vi-8T5" eventType="touchUpInside" id="l1r-hE-oTg"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
                                         <constraints>
                                             <constraint firstItem="1Gs-dn-iIa" firstAttribute="leading" secondItem="CbF-X4-VOr" secondAttribute="leading" constant="20" symbolic="YES" id="1jE-yO-j27"/>
@@ -135,13 +151,16 @@
                                             <constraint firstItem="N99-fU-3Fa" firstAttribute="top" secondItem="kT7-Y6-JZJ" secondAttribute="bottom" constant="8" symbolic="YES" id="PjC-Yg-jqP"/>
                                             <constraint firstItem="r2z-67-rEN" firstAttribute="leading" secondItem="CbF-X4-VOr" secondAttribute="leading" constant="20" symbolic="YES" id="SmX-tk-c2s"/>
                                             <constraint firstAttribute="trailing" secondItem="37u-6g-uQr" secondAttribute="trailing" constant="20" symbolic="YES" id="WgK-2R-aBY"/>
+                                            <constraint firstItem="37u-6g-uQr" firstAttribute="top" secondItem="VtY-Te-Qir" secondAttribute="bottom" constant="8" symbolic="YES" id="Xgv-Ew-ECZ"/>
+                                            <constraint firstItem="VtY-Te-Qir" firstAttribute="leading" secondItem="CbF-X4-VOr" secondAttribute="leading" constant="20" symbolic="YES" id="YFf-lz-2js"/>
+                                            <constraint firstAttribute="trailing" secondItem="VtY-Te-Qir" secondAttribute="trailing" constant="20" symbolic="YES" id="Zsc-BL-sYM"/>
                                             <constraint firstItem="r2z-67-rEN" firstAttribute="top" secondItem="3pI-sO-7Np" secondAttribute="bottom" constant="8" symbolic="YES" id="aki-r8-HlQ"/>
+                                            <constraint firstItem="VtY-Te-Qir" firstAttribute="top" secondItem="SJN-Fc-wKf" secondAttribute="bottom" constant="8" symbolic="YES" id="bkn-3v-Agv"/>
                                             <constraint firstItem="WBp-sb-8H4" firstAttribute="leading" secondItem="CbF-X4-VOr" secondAttribute="leading" constant="20" symbolic="YES" id="cNL-Mf-Fjr"/>
                                             <constraint firstItem="6MZ-kF-lc5" firstAttribute="leading" secondItem="CbF-X4-VOr" secondAttribute="leading" constant="20" symbolic="YES" id="cOJ-iq-jDV"/>
                                             <constraint firstItem="N99-fU-3Fa" firstAttribute="leading" secondItem="CbF-X4-VOr" secondAttribute="leading" constant="20" symbolic="YES" id="cPn-VL-TsS"/>
                                             <constraint firstItem="SJN-Fc-wKf" firstAttribute="top" secondItem="1Gs-dn-iIa" secondAttribute="bottom" id="etu-wv-Bqm"/>
                                             <constraint firstItem="kT7-Y6-JZJ" firstAttribute="top" secondItem="hcl-6s-ZHW" secondAttribute="bottom" constant="8" symbolic="YES" id="h6G-zU-ahy"/>
-                                            <constraint firstItem="37u-6g-uQr" firstAttribute="top" secondItem="SJN-Fc-wKf" secondAttribute="bottom" constant="8" symbolic="YES" id="iwS-U0-Fc6"/>
                                             <constraint firstAttribute="trailing" secondItem="r2z-67-rEN" secondAttribute="trailing" constant="20" symbolic="YES" id="j6f-RB-2bv"/>
                                             <constraint firstItem="1Gs-dn-iIa" firstAttribute="top" secondItem="6MZ-kF-lc5" secondAttribute="bottom" constant="8" symbolic="YES" id="l6c-4z-OKa"/>
                                             <constraint firstItem="hcl-6s-ZHW" firstAttribute="leading" secondItem="CbF-X4-VOr" secondAttribute="leading" constant="20" symbolic="YES" id="mCh-ik-v7F"/>
@@ -188,7 +207,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xnc-V9-UNh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-280" y="265"/>
+            <point key="canvasLocation" x="-280.80000000000001" y="264.91754122938534"/>
         </scene>
         <!--Result View Controller-->
         <scene sceneID="daa-Bc-0Q7">

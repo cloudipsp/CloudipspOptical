@@ -7,7 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <Cloudipsp/PSCloudipsp.h>
 
 @interface PSOpticalBridge : NSObject
+
+- (void)startScan:(UIViewController *)viewController aCardInputView:(PSCardInputView *)cardInputView;
 
 @end
