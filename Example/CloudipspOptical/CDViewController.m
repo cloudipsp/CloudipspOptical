@@ -7,7 +7,7 @@
 //
 
 #import "CDViewController.h"
-#import <Cloudipsp/PSCloudipsp.h>
+//#import <Cloudipsp/PSCloudipsp.h>
 #import <CloudipspOptical/PSCloudipspOptical.h>
 #import "CDResultViewController.h"
 
@@ -33,6 +33,7 @@ static NSString * const resultSegue = @"resultSegue";
 
 @property (nonatomic, strong) NSString *result;
 @property (nonatomic, strong) PSCloudipspApi *api;
+@property (nonatomic, strong) PSOpticalBridge *opticalBridge;
 
 @end
 
@@ -44,6 +45,7 @@ static NSString * const resultSegue = @"resultSegue";
     self.webView = [[PSCloudipspWKWebView alloc] initWithFrame:self.view.frame];
     [self.view addSubview:self.webView];
     self.api = [PSCloudipspApi apiWithMerchant:1396424 andCloudipspView:self.webView];
+    self.opticalBridge = [[PSOpticalBridge alloc] init];
 }
 
 - (void)viewWillAppear:(BOOL)animated {
@@ -117,8 +119,7 @@ static NSString * const resultSegue = @"resultSegue";
 }
 
 - (IBAction)scanCard:(UIButton *)sender {
-    PSOpticalBridge *opticalBridge = [[PSOpticalBridge alloc] init];
-    [opticalBridge startScan:self aCardInputView:self.cardInputView];
+    [self.opticalBridge startScan:self aCardInputView:self.cardInputView];
 }
 
 - (IBAction)pay:(UIButton *)sender {

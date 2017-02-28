@@ -8,33 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		08F93EE48B33C51E109FA2666040DD67 /* PSCardInputView.h in Headers */ = {isa = PBXBuildFile; fileRef = CA7A77489A03FBE6F0771B50CDC0D2CB /* PSCardInputView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0AD4FB500751494B31E4F69AEC7A94D8 /* PSOpticalBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2A8C4F8B3C08E1E12F2D03BCE1E3CE /* PSOpticalBridge.m */; };
 		1E9B31A48F575390BCBA7AE0D5947BAC /* PSOrder.h in Headers */ = {isa = PBXBuildFile; fileRef = C99A164534B9E6EEA1DF2A5CE6AE15AE /* PSOrder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		26DED090F333FDD8C2D903DDB12118C1 /* PSPayConfirmation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D9E0F86E53AA89735F9B04A5DC64BF4 /* PSPayConfirmation.m */; };
 		28643F5840DB54EE7F4BF89853AA6CA5 /* PSCloudipsp.h in Headers */ = {isa = PBXBuildFile; fileRef = EFAB641DAEEA0704757FC4523DD4B19E /* PSCloudipsp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A7F985A9F8218124B2F9742D2626DEB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
 		2CE09D8F3EB0C49A3FF8EC168FB394F3 /* PSOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ED33F3869FCF48AD3629A2ABD74B6C3 /* PSOrder.m */; };
-		36B095FAD16C73256722261D86A79819 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
 		3AC1BBDDEC8BE06C83B41A4A4F4F3CE7 /* PSCloudipspApi.h in Headers */ = {isa = PBXBuildFile; fileRef = 65615E421B6A2565D5CE232BF72FEF18 /* PSCloudipspApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		48FCBCA34D1DE2263E6D327FF43A72B1 /* Pods-CloudipspOptical_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E94E486956E98CC13F5D61B511D9FD8 /* Pods-CloudipspOptical_Tests-dummy.m */; };
 		567A7013136239D93BA4DBEE721043E4 /* PSUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 463B5674CECB19FAF661BBEFA6FD217D /* PSUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A1F6E92E499BA2F0FC36F4F01EDEEF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
 		61F95128AF7C0EAD1923876C62A9688A /* PSReceiptUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = EC4AFA9FA6DDA0702E94362DB85CEACF /* PSReceiptUtils.m */; };
 		670135CB99081D900ACC2A0D6DF010E0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
 		670E436EEEAE4F403560427B3F66C3E2 /* PSReceipt.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9E19BB86637A8B6BD58BA32C25BA50 /* PSReceipt.m */; };
 		83BC966244EBD848764DE3793CE9D93E /* PSUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D42FACC8C68F5F2D6B1979DC0A5B4F6 /* PSUtils.m */; };
-		85C683391E6581C700B3C896 /* PSOpticalBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C683371E6581C700B3C896 /* PSOpticalBridge.m */; };
-		85C683401E658F8A00B3C896 /* PSOpticalBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 85C683361E6581C700B3C896 /* PSOpticalBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		85C683421E659C8F00B3C896 /* PSCloudipspOptical.h in Headers */ = {isa = PBXBuildFile; fileRef = 85C683411E659C2C00B3C896 /* PSCloudipspOptical.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		85C683431E65A5FE00B3C896 /* PSOpticalBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C683371E6581C700B3C896 /* PSOpticalBridge.m */; };
-		85C683461E65A67000B3C896 /* PSCloudipspOptical.h in Headers */ = {isa = PBXBuildFile; fileRef = 85C683411E659C2C00B3C896 /* PSCloudipspOptical.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		876656FBF26737A12DF97F3DC96647A4 /* PSCloudipspApi.m in Sources */ = {isa = PBXBuildFile; fileRef = BF14A5E857C57DE1FE91A2637DB13986 /* PSCloudipspApi.m */; };
 		8DB76F4222ECC481895C047C5C9F0398 /* PSLocalization.m in Sources */ = {isa = PBXBuildFile; fileRef = 228DE69170E19EABBE05233F8D0FDB37 /* PSLocalization.m */; };
 		8E7A96F4DB611F7B771D00098D6FE2F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
 		9195369A80BEAA357E9134FCEC667FEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
 		944FD0F202D6531C2B1A901C5AB4E20B /* PSReceipt.h in Headers */ = {isa = PBXBuildFile; fileRef = 194AFABC33166375A16C7BF14FC1F2CF /* PSReceipt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AF562B24F028D06E89E196A160ED688 /* PSOpticalBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 41208C837A4F095EE25829BA17DAD814 /* PSOpticalBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9E1BA7B691483089EB6891C8814BCF97 /* Cloudipsp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 022BFF395718D20B46D0BE4818856548 /* Cloudipsp-dummy.m */; };
 		9F58FC521FCA92957F92420CBD8D4507 /* PSCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3C8019A7759F63210D51D6C53D7C33 /* PSCard.m */; };
 		A69A1F32D83BBE0D2F5EBF372D022DB6 /* PSReceiptUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = AD057069B7F33009E8D4DE5B78414572 /* PSReceiptUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AE684FC763BE40A2F04532CD6D9AA958 /* PSCard.h in Headers */ = {isa = PBXBuildFile; fileRef = 73B4818CCD0F76D35AEBBB8ABDD55439 /* PSCard.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BB9A02725F7929C9855C92D327CFFB40 /* PSCurrency.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E01635B7C26312C5467BE15AF735C92 /* PSCurrency.m */; };
+		BCD8B669E0F1178A079E4A07862EF925 /* CloudipspOptical-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACAFE39CD3C978948723A801B133CF4 /* CloudipspOptical-dummy.m */; };
 		D298946708F10D6256D555252FCCCBB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
 		D4661749FD2C5F302EEB85C7BFB94021 /* PSCloudipspWKWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CD8A2B605EBCA33C9A94A4662A8FE9 /* PSCloudipspWKWebView.m */; };
 		DA355C8D84CFCF70162EAFA1E213C155 /* PSLocalization.h in Headers */ = {isa = PBXBuildFile; fileRef = A47C3B23472F151685CC360D253671FF /* PSLocalization.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -43,9 +42,8 @@
 		EB2036F8B9CCBA70B9C4BFC150D8A97D /* PSPayConfirmation.h in Headers */ = {isa = PBXBuildFile; fileRef = C8504F4CF395553B78A34727FE116114 /* PSPayConfirmation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EEBB438E8B1136892B6013E1FB8A7FCA /* PSCardNumberTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = A07762D62941347377ACA76EBAC100F2 /* PSCardNumberTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F14920FBB64155F807A6BA23B78CB4F1 /* PSCloudipspWKWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = F9974593885160C9BE0EFFF8698BD03B /* PSCloudipspWKWebView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2D7F17CB727469C8DFD1F7BF4929A19 /* PSCloudipspOptical.h in Headers */ = {isa = PBXBuildFile; fileRef = 209AF3405984848C73F46FB835635F5A /* PSCloudipspOptical.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F4477D1E1AFA3B573AA317D7DE6525A3 /* PSCardInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 166AAE544B00EC4B802DE897C6D5F82B /* PSCardInputView.m */; };
-		F986C2DB17784346DC75ECCFD817D1CC /* CloudipspOptical-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D3932D13BBFEA36A7E636CE65547ADBF /* CloudipspOptical-dummy.m */; };
-		FCC37935712E4C74831B329A0C48B7A8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
 		FE57DA8EFD186984EC065EB5F23BD520 /* Pods-CloudipspOptical_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 526F6BADD547D048A1B0A70C334B947A /* Pods-CloudipspOptical_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -54,17 +52,17 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CFA12885A53D1C7C8A3CE585F28406A5;
+			remoteGlobalIDString = DEA44CE43662A1D55DBF22FB5EFC0E32;
 			remoteInfo = CloudipspOptical;
 		};
-		A6CD62F8133CE9E669F3165D6A0C1483 /* PBXContainerItemProxy */ = {
+		6D60B1128AC3992FF95953B6D1C77C9C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 7DBCD21A2D41180B214E6FABD6005683;
 			remoteInfo = Cloudipsp;
 		};
-		B09E2F647F63A6FF9FC9E7A6F6E6E45A /* PBXContainerItemProxy */ = {
+		A6CD62F8133CE9E669F3165D6A0C1483 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -76,25 +74,29 @@
 /* Begin PBXFileReference section */
 		01420261FC4E69DCBE168062AB205F21 /* Pods-CloudipspOptical_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CloudipspOptical_Example.release.xcconfig"; sourceTree = "<group>"; };
 		022BFF395718D20B46D0BE4818856548 /* Cloudipsp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Cloudipsp-dummy.m"; sourceTree = "<group>"; };
-		164BE12ADB494F586EF30F9E9B655BE1 /* libCloudipspOptical.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCloudipspOptical.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A2A8C4F8B3C08E1E12F2D03BCE1E3CE /* PSOpticalBridge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PSOpticalBridge.m; sourceTree = "<group>"; };
+		164BE12ADB494F586EF30F9E9B655BE1 /* libCloudipspOptical.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libCloudipspOptical.a; path = libCloudipspOptical.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		166AAE544B00EC4B802DE897C6D5F82B /* PSCardInputView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PSCardInputView.m; path = Pod/Classes/Views/PSCardInputView.m; sourceTree = "<group>"; };
 		194AFABC33166375A16C7BF14FC1F2CF /* PSReceipt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSReceipt.h; path = Pod/Classes/Models/PSReceipt.h; sourceTree = "<group>"; };
 		1D42FACC8C68F5F2D6B1979DC0A5B4F6 /* PSUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PSUtils.m; path = Pod/Classes/PSUtils.m; sourceTree = "<group>"; };
 		1E01635B7C26312C5467BE15AF735C92 /* PSCurrency.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PSCurrency.m; path = Pod/Classes/Models/PSCurrency.m; sourceTree = "<group>"; };
+		209AF3405984848C73F46FB835635F5A /* PSCloudipspOptical.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PSCloudipspOptical.h; sourceTree = "<group>"; };
 		228DE69170E19EABBE05233F8D0FDB37 /* PSLocalization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PSLocalization.m; path = Pod/Classes/PSLocalization.m; sourceTree = "<group>"; };
 		232764FA91700B8B8892D15C351A21FE /* CardIOViewDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CardIOViewDelegate.h; path = CardIO/CardIOViewDelegate.h; sourceTree = "<group>"; };
 		24BE973F88F4DBA6AA8D013E0CC2569D /* PSCurrency.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSCurrency.h; path = Pod/Classes/Models/PSCurrency.h; sourceTree = "<group>"; };
 		2ED33F3869FCF48AD3629A2ABD74B6C3 /* PSOrder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PSOrder.m; path = Pod/Classes/Models/PSOrder.m; sourceTree = "<group>"; };
 		2F13584BF209AEDAF401BB913F3BAD8A /* CardIOCreditCardInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CardIOCreditCardInfo.h; path = CardIO/CardIOCreditCardInfo.h; sourceTree = "<group>"; };
 		331A5732488328A652D98AB555B3CDA1 /* Pods-CloudipspOptical_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CloudipspOptical_Tests-resources.sh"; sourceTree = "<group>"; };
-		33601EADD0A267C6D4C464D0A97F7761 /* CloudipspOptical-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CloudipspOptical-prefix.pch"; sourceTree = "<group>"; };
 		3858B258E72EE7D80AD9E06570C305E8 /* PSCardNumberTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PSCardNumberTextField.m; path = Pod/Classes/Views/PSCardNumberTextField.m; sourceTree = "<group>"; };
 		4080E75ADF1BAB7FF893EE15DABF1B98 /* libCardIO.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libCardIO.a; path = CardIO/libCardIO.a; sourceTree = "<group>"; };
+		41208C837A4F095EE25829BA17DAD814 /* PSOpticalBridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PSOpticalBridge.h; sourceTree = "<group>"; };
+		421DE33CC16704CCF7695D9CAF4B04DE /* CloudipspOptical-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CloudipspOptical-prefix.pch"; sourceTree = "<group>"; };
 		436260FBEB1A511B0ADF3A0AE2453146 /* Pods-CloudipspOptical_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CloudipspOptical_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		463B5674CECB19FAF661BBEFA6FD217D /* PSUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSUtils.h; path = Pod/Classes/PSUtils.h; sourceTree = "<group>"; };
 		4BC6AAD19B4D28F6E2411C2BCB298EF9 /* libopencv_core.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libopencv_core.a; path = CardIO/libopencv_core.a; sourceTree = "<group>"; };
 		4D478C7580AD259F1F90408C895AE7F0 /* CardIOView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CardIOView.h; path = CardIO/CardIOView.h; sourceTree = "<group>"; };
 		4E94E486956E98CC13F5D61B511D9FD8 /* Pods-CloudipspOptical_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CloudipspOptical_Tests-dummy.m"; sourceTree = "<group>"; };
+		4EE0BBACF3BCAE479500B822C96D8569 /* CloudipspOptical.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CloudipspOptical.xcconfig; sourceTree = "<group>"; };
 		526F6BADD547D048A1B0A70C334B947A /* Pods-CloudipspOptical_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CloudipspOptical_Example-dummy.m"; sourceTree = "<group>"; };
 		5A9E19BB86637A8B6BD58BA32C25BA50 /* PSReceipt.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PSReceipt.m; path = Pod/Classes/Models/PSReceipt.m; sourceTree = "<group>"; };
 		5E02D6B2D29713ABE0F71A18D03C6450 /* CardIOUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CardIOUtilities.h; path = CardIO/CardIOUtilities.h; sourceTree = "<group>"; };
@@ -102,20 +104,17 @@
 		616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		65615E421B6A2565D5CE232BF72FEF18 /* PSCloudipspApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSCloudipspApi.h; path = Pod/Classes/PSCloudipspApi.h; sourceTree = "<group>"; };
 		67CB911845833C04372CD54C43708EBD /* CardIO.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CardIO.h; path = CardIO/CardIO.h; sourceTree = "<group>"; };
-		6ED37BCC899AA7ACDA32764D25CA116B /* CloudipspOptical.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CloudipspOptical.xcconfig; sourceTree = "<group>"; };
 		6FE4A3C8FCFF9F1A22835EC56488333F /* Pods-CloudipspOptical_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CloudipspOptical_Example-resources.sh"; sourceTree = "<group>"; };
 		73B4818CCD0F76D35AEBBB8ABDD55439 /* PSCard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSCard.h; path = Pod/Classes/Models/PSCard.h; sourceTree = "<group>"; };
+		7ACAFE39CD3C978948723A801B133CF4 /* CloudipspOptical-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CloudipspOptical-dummy.m"; sourceTree = "<group>"; };
 		7D9E0F86E53AA89735F9B04A5DC64BF4 /* PSPayConfirmation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PSPayConfirmation.m; path = Pod/Classes/PSPayConfirmation.m; sourceTree = "<group>"; };
 		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		827247CEFE2466A53FCBEE7EBB128789 /* Pods-CloudipspOptical_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CloudipspOptical_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		833E09BFE8CD8AB5299A4E451965DB84 /* Pods-CloudipspOptical_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CloudipspOptical_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		84ABCE708BF4D8ABE50D15C50E29F771 /* CardIOPaymentViewControllerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CardIOPaymentViewControllerDelegate.h; path = CardIO/CardIOPaymentViewControllerDelegate.h; sourceTree = "<group>"; };
-		85C683361E6581C700B3C896 /* PSOpticalBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSOpticalBridge.h; sourceTree = "<group>"; };
-		85C683371E6581C700B3C896 /* PSOpticalBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSOpticalBridge.m; sourceTree = "<group>"; };
-		85C683411E659C2C00B3C896 /* PSCloudipspOptical.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSCloudipspOptical.h; sourceTree = "<group>"; };
 		8B3C8019A7759F63210D51D6C53D7C33 /* PSCard.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PSCard.m; path = Pod/Classes/Models/PSCard.m; sourceTree = "<group>"; };
 		8CAEC5EC59C6F4B8D3D1827C7459E8BB /* Pods-CloudipspOptical_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CloudipspOptical_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93CD8A2B605EBCA33C9A94A4662A8FE9 /* PSCloudipspWKWebView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PSCloudipspWKWebView.m; path = Pod/Classes/Views/PSCloudipspWKWebView.m; sourceTree = "<group>"; };
 		94236BEE129A61C8905DC18C06630B25 /* Pods-CloudipspOptical_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CloudipspOptical_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9C379D875961225A7D92AA5990F560B9 /* CardIOPaymentViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CardIOPaymentViewController.h; path = CardIO/CardIOPaymentViewController.h; sourceTree = "<group>"; };
@@ -126,16 +125,15 @@
 		AECF932973107F5F904C09E0377F03EB /* Pods-CloudipspOptical_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CloudipspOptical_Example-frameworks.sh"; sourceTree = "<group>"; };
 		B52A7CE57B63E60A4DDF37D233F9C7A1 /* Cloudipsp.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Cloudipsp.xcconfig; sourceTree = "<group>"; };
 		BF14A5E857C57DE1FE91A2637DB13986 /* PSCloudipspApi.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PSCloudipspApi.m; path = Pod/Classes/PSCloudipspApi.m; sourceTree = "<group>"; };
-		C09D714D24DE13B9E0F098C97970F5B8 /* libCloudipsp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCloudipsp.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C09D714D24DE13B9E0F098C97970F5B8 /* libCloudipsp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libCloudipsp.a; path = libCloudipsp.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8504F4CF395553B78A34727FE116114 /* PSPayConfirmation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSPayConfirmation.h; path = Pod/Classes/PSPayConfirmation.h; sourceTree = "<group>"; };
 		C8DB55DA35107D247F9214C05EA320BC /* CardIODetectionMode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CardIODetectionMode.h; path = CardIO/CardIODetectionMode.h; sourceTree = "<group>"; };
 		C979041FAB12A4B468B37FEAD918B98C /* Cloudipsp-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cloudipsp-prefix.pch"; sourceTree = "<group>"; };
 		C99A164534B9E6EEA1DF2A5CE6AE15AE /* PSOrder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSOrder.h; path = Pod/Classes/Models/PSOrder.h; sourceTree = "<group>"; };
 		CA7A77489A03FBE6F0771B50CDC0D2CB /* PSCardInputView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSCardInputView.h; path = Pod/Classes/Views/PSCardInputView.h; sourceTree = "<group>"; };
 		D27D0ED9B13328C15DF61FF8A1EF09C7 /* Pods-CloudipspOptical_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CloudipspOptical_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		D30E4A86B84727CB6E93B66224D4F3C0 /* libPods-CloudipspOptical_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CloudipspOptical_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D3932D13BBFEA36A7E636CE65547ADBF /* CloudipspOptical-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CloudipspOptical-dummy.m"; sourceTree = "<group>"; };
-		DB9C3FE659CB809A8F570ABCE4BB80F1 /* libPods-CloudipspOptical_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CloudipspOptical_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D30E4A86B84727CB6E93B66224D4F3C0 /* libPods-CloudipspOptical_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-CloudipspOptical_Example.a"; path = "libPods-CloudipspOptical_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB9C3FE659CB809A8F570ABCE4BB80F1 /* libPods-CloudipspOptical_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-CloudipspOptical_Tests.a"; path = "libPods-CloudipspOptical_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD5B5B42E79B92CF4ECA05254FDCB7E8 /* Pods-CloudipspOptical_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CloudipspOptical_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		EC4AFA9FA6DDA0702E94362DB85CEACF /* PSReceiptUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PSReceiptUtils.m; path = Pod/Classes/PSReceiptUtils.m; sourceTree = "<group>"; };
 		EFAB641DAEEA0704757FC4523DD4B19E /* PSCloudipsp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSCloudipsp.h; path = Pod/Classes/PSCloudipsp.h; sourceTree = "<group>"; };
@@ -144,6 +142,15 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0776D36EF16CD313E5A9EF38DED3D96B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A1F6E92E499BA2F0FC36F4F01EDEEF5 /* Foundation.framework in Frameworks */,
+				2A7F985A9F8218124B2F9742D2626DEB /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4006FCF1AC4B9C71938DF1FCDF03A9C1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -166,15 +173,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D298946708F10D6256D555252FCCCBB9 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D47BAF7B66512E87F4BF6A0790A3CAEA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				36B095FAD16C73256722261D86A79819 /* Foundation.framework in Frameworks */,
-				FCC37935712E4C74831B329A0C48B7A8 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,17 +212,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		30BC6278E90835EB1680A19156370A80 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				6ED37BCC899AA7ACDA32764D25CA116B /* CloudipspOptical.xcconfig */,
-				D3932D13BBFEA36A7E636CE65547ADBF /* CloudipspOptical-dummy.m */,
-				33601EADD0A267C6D4C464D0A97F7761 /* CloudipspOptical-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/CloudipspOptical";
-			sourceTree = "<group>";
-		};
 		3770B8774AD2B14958FA02CF489175B7 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -242,6 +229,36 @@
 				E6EE98446B568159EE277B68FD442AF0 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4DB9C475D2A51CF210801CBFAE31AD5A /* CloudipspOptical */ = {
+			isa = PBXGroup;
+			children = (
+				60B088B06211254A26DB600B1CE2FCA2 /* Classes */,
+			);
+			name = CloudipspOptical;
+			path = CloudipspOptical;
+			sourceTree = "<group>";
+		};
+		5AF4699D212D288D101CC55E587AC9A8 /* CloudipspOptical */ = {
+			isa = PBXGroup;
+			children = (
+				4DB9C475D2A51CF210801CBFAE31AD5A /* CloudipspOptical */,
+				CE096FAA6133380706039FAE3E5234E1 /* Support Files */,
+			);
+			name = CloudipspOptical;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		60B088B06211254A26DB600B1CE2FCA2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				209AF3405984848C73F46FB835635F5A /* PSCloudipspOptical.h */,
+				41208C837A4F095EE25829BA17DAD814 /* PSOpticalBridge.h */,
+				0A2A8C4F8B3C08E1E12F2D03BCE1E3CE /* PSOpticalBridge.m */,
+			);
+			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		74028D0823DB87A2772407A9D6948030 /* Pods-CloudipspOptical_Tests */ = {
@@ -271,24 +288,6 @@
 			);
 			sourceTree = "<group>";
 		};
-		9CD8EB2170B9330F9AD3C7B0C084BF40 /* CloudipspOptical */ = {
-			isa = PBXGroup;
-			children = (
-				B01CD68231993E543BEF76F4E6E2A9E3 /* CloudipspOptical */,
-				30BC6278E90835EB1680A19156370A80 /* Support Files */,
-			);
-			name = CloudipspOptical;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		B01CD68231993E543BEF76F4E6E2A9E3 /* CloudipspOptical */ = {
-			isa = PBXGroup;
-			children = (
-				DD09FC1BCD1E60F8812B518FB5C2F40B /* Classes */,
-			);
-			path = CloudipspOptical;
-			sourceTree = "<group>";
-		};
 		B517DFE87CE4DB7E0F36E58D23DDD7D9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -298,6 +297,17 @@
 				DB9C3FE659CB809A8F570ABCE4BB80F1 /* libPods-CloudipspOptical_Tests.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		CE096FAA6133380706039FAE3E5234E1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4EE0BBACF3BCAE479500B822C96D8569 /* CloudipspOptical.xcconfig */,
+				7ACAFE39CD3C978948723A801B133CF4 /* CloudipspOptical-dummy.m */,
+				421DE33CC16704CCF7695D9CAF4B04DE /* CloudipspOptical-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CloudipspOptical";
 			sourceTree = "<group>";
 		};
 		D0C46F23492A7ACFF4DB9B2E6CBDC8E7 /* CardIO */ = {
@@ -313,23 +323,14 @@
 				232764FA91700B8B8892D15C351A21FE /* CardIOViewDelegate.h */,
 				2A7A379A669708A377A4DEFF14052B8E /* Frameworks */,
 			);
+			name = CardIO;
 			path = CardIO;
-			sourceTree = "<group>";
-		};
-		DD09FC1BCD1E60F8812B518FB5C2F40B /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				85C683411E659C2C00B3C896 /* PSCloudipspOptical.h */,
-				85C683361E6581C700B3C896 /* PSOpticalBridge.h */,
-				85C683371E6581C700B3C896 /* PSOpticalBridge.m */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		DEC54E5E15D657FBF6A5B47F51D95639 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9CD8EB2170B9330F9AD3C7B0C084BF40 /* CloudipspOptical */,
+				5AF4699D212D288D101CC55E587AC9A8 /* CloudipspOptical */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -383,6 +384,7 @@
 				060DED58FEA0A77B7C25B882FC4F90C2 /* Resources */,
 				3770B8774AD2B14958FA02CF489175B7 /* Support Files */,
 			);
+			name = Cloudipsp;
 			path = Cloudipsp;
 			sourceTree = "<group>";
 		};
@@ -418,20 +420,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		85C6833B1E65874700B3C896 /* Headers */ = {
+		57BB950603897B0BE3799BBFCA209D60 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85C683421E659C8F00B3C896 /* PSCloudipspOptical.h in Headers */,
-				85C683401E658F8A00B3C896 /* PSOpticalBridge.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		85C683441E65A64F00B3C896 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				85C683461E65A67000B3C896 /* PSCloudipspOptical.h in Headers */,
+				F2D7F17CB727469C8DFD1F7BF4929A19 /* PSCloudipspOptical.h in Headers */,
+				9AF562B24F028D06E89E196A160ED688 /* PSOpticalBridge.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,31 +449,12 @@
 			productReference = C09D714D24DE13B9E0F098C97970F5B8 /* libCloudipsp.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		CFA12885A53D1C7C8A3CE585F28406A5 /* CloudipspOptical */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A061F675CA44F3652D039010FE2FFB75 /* Build configuration list for PBXNativeTarget "CloudipspOptical" */;
-			buildPhases = (
-				D5DB6AC31E02D6BC700B373808602928 /* Sources */,
-				D47BAF7B66512E87F4BF6A0790A3CAEA /* Frameworks */,
-				85C6833B1E65874700B3C896 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F7D2CBD1358E3E95E0793AA5E4698ED3 /* PBXTargetDependency */,
-			);
-			name = CloudipspOptical;
-			productName = CloudipspOptical;
-			productReference = 164BE12ADB494F586EF30F9E9B655BE1 /* libCloudipspOptical.a */;
-			productType = "com.apple.product-type.library.static";
-		};
 		D747B82B90BF3D8DF234122F6CD8D640 /* Pods-CloudipspOptical_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = CB4ECCF686198F570FBBAF3CB15C05CB /* Build configuration list for PBXNativeTarget "Pods-CloudipspOptical_Example" */;
 			buildPhases = (
 				FD116E09EF9ED8E4E50EAE64B5A15CCE /* Sources */,
 				A5CFC706E57953CA24D9B9C86D34C538 /* Frameworks */,
-				85C683441E65A64F00B3C896 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -490,6 +465,24 @@
 			name = "Pods-CloudipspOptical_Example";
 			productName = "Pods-CloudipspOptical_Example";
 			productReference = D30E4A86B84727CB6E93B66224D4F3C0 /* libPods-CloudipspOptical_Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DEA44CE43662A1D55DBF22FB5EFC0E32 /* CloudipspOptical */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F6B665BC9F82FB2DD8EEA4093CB1CE7 /* Build configuration list for PBXNativeTarget "CloudipspOptical" */;
+			buildPhases = (
+				613DBAA1F3443BA7A1D5BE4D2269C99E /* Sources */,
+				0776D36EF16CD313E5A9EF38DED3D96B /* Frameworks */,
+				57BB950603897B0BE3799BBFCA209D60 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E87FE92449805C8F9E9FF0107F98168 /* PBXTargetDependency */,
+			);
+			name = CloudipspOptical;
+			productName = CloudipspOptical;
+			productReference = 164BE12ADB494F586EF30F9E9B655BE1 /* libCloudipspOptical.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		FB91BEB4C2934DA3FCBFDE35FF04CB43 /* Pods-CloudipspOptical_Tests */ = {
@@ -530,7 +523,7 @@
 			projectRoot = "";
 			targets = (
 				7DBCD21A2D41180B214E6FABD6005683 /* Cloudipsp */,
-				CFA12885A53D1C7C8A3CE585F28406A5 /* CloudipspOptical */,
+				DEA44CE43662A1D55DBF22FB5EFC0E32 /* CloudipspOptical */,
 				D747B82B90BF3D8DF234122F6CD8D640 /* Pods-CloudipspOptical_Example */,
 				FB91BEB4C2934DA3FCBFDE35FF04CB43 /* Pods-CloudipspOptical_Tests */,
 			);
@@ -538,6 +531,15 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		613DBAA1F3443BA7A1D5BE4D2269C99E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD8B669E0F1178A079E4A07862EF925 /* CloudipspOptical-dummy.m in Sources */,
+				0AD4FB500751494B31E4F69AEC7A94D8 /* PSOpticalBridge.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		78F5E9620F2351AEFFCF2333E83BC81D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -551,7 +553,6 @@
 				BB9A02725F7929C9855C92D327CFFB40 /* PSCurrency.m in Sources */,
 				8DB76F4222ECC481895C047C5C9F0398 /* PSLocalization.m in Sources */,
 				2CE09D8F3EB0C49A3FF8EC168FB394F3 /* PSOrder.m in Sources */,
-				85C683391E6581C700B3C896 /* PSOpticalBridge.m in Sources */,
 				26DED090F333FDD8C2D903DDB12118C1 /* PSPayConfirmation.m in Sources */,
 				670E436EEEAE4F403560427B3F66C3E2 /* PSReceipt.m in Sources */,
 				61F95128AF7C0EAD1923876C62A9688A /* PSReceiptUtils.m in Sources */,
@@ -567,15 +568,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D5DB6AC31E02D6BC700B373808602928 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				85C683431E65A5FE00B3C896 /* PSOpticalBridge.m in Sources */,
-				F986C2DB17784346DC75ECCFD817D1CC /* CloudipspOptical-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		FD116E09EF9ED8E4E50EAE64B5A15CCE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -587,10 +579,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		7E87FE92449805C8F9E9FF0107F98168 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Cloudipsp;
+			target = 7DBCD21A2D41180B214E6FABD6005683 /* Cloudipsp */;
+			targetProxy = 6D60B1128AC3992FF95953B6D1C77C9C /* PBXContainerItemProxy */;
+		};
 		C4017A5C6E6E9F3A979F67CDF0AC8CD0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CloudipspOptical;
-			target = CFA12885A53D1C7C8A3CE585F28406A5 /* CloudipspOptical */;
+			target = DEA44CE43662A1D55DBF22FB5EFC0E32 /* CloudipspOptical */;
 			targetProxy = 116868B90B0BA33195E0948EAABC1392 /* PBXContainerItemProxy */;
 		};
 		CC7C05F079C85E50BC7895EBBA00A08C /* PBXTargetDependency */ = {
@@ -599,15 +597,32 @@
 			target = 7DBCD21A2D41180B214E6FABD6005683 /* Cloudipsp */;
 			targetProxy = A6CD62F8133CE9E669F3165D6A0C1483 /* PBXContainerItemProxy */;
 		};
-		F7D2CBD1358E3E95E0793AA5E4698ED3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Cloudipsp;
-			target = 7DBCD21A2D41180B214E6FABD6005683 /* Cloudipsp */;
-			targetProxy = B09E2F647F63A6FF9FC9E7A6F6E6E45A /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		0FA436AD0AE2ED424B64E86FE851CE63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EE0BBACF3BCAE479500B822C96D8569 /* CloudipspOptical.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CloudipspOptical/CloudipspOptical-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		10B752CDCDD3B934114DEAC04A632E35 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 436260FBEB1A511B0ADF3A0AE2453146 /* Pods-CloudipspOptical_Example.debug.xcconfig */;
@@ -631,19 +646,19 @@
 			};
 			name = Debug;
 		};
-		2F787846FABB1A1BB5665B0588A6945A /* Release */ = {
+		35C9327567048F7AEFEB79BD5208137D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6ED37BCC899AA7ACDA32764D25CA116B /* CloudipspOptical.xcconfig */;
+			baseConfigurationReference = 4EE0BBACF3BCAE479500B822C96D8569 /* CloudipspOptical.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/CloudipspOptical/CloudipspOptical-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -652,7 +667,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
-			name = Release;
+			name = Debug;
 		};
 		36C57173D4C7B59D6935C2EBB422ECE4 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -688,29 +703,6 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/Cloudipsp/Cloudipsp-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		798234FD7BDEAB3CF2EC7DC72916D21D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6ED37BCC899AA7ACDA32764D25CA116B /* CloudipspOptical.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/CloudipspOptical/CloudipspOptical-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
@@ -888,6 +880,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		2F6B665BC9F82FB2DD8EEA4093CB1CE7 /* Build configuration list for PBXNativeTarget "CloudipspOptical" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35C9327567048F7AEFEB79BD5208137D /* Debug */,
+				0FA436AD0AE2ED424B64E86FE851CE63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		41325B28C725EF2D8E94D95E607FE5D0 /* Build configuration list for PBXNativeTarget "Pods-CloudipspOptical_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -902,15 +903,6 @@
 			buildConfigurations = (
 				69AAE3B6262BFF6B0AFC9E93E6199717 /* Debug */,
 				A806E3FA31D245069F331A5DBD993FEE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A061F675CA44F3652D039010FE2FFB75 /* Build configuration list for PBXNativeTarget "CloudipspOptical" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				798234FD7BDEAB3CF2EC7DC72916D21D /* Debug */,
-				2F787846FABB1A1BB5665B0588A6945A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
