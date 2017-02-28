@@ -34,8 +34,8 @@
 - (void)userDidProvideCreditCardInfo:(CardIOCreditCardInfo *)cardInfo inPaymentViewController:(CardIOPaymentViewController *)paymentViewController
 {
     self.cardInputView.cardNumberTextField.text = cardInfo.redactedCardNumber;
-    self.cardInputView.expMonthTextField.text = [NSString stringWithFormat:@"%ld", cardInfo.expiryMonth];
-    self.cardInputView.expYearTextField.text = [NSString stringWithFormat:@"%ld", cardInfo.expiryYear];
+    self.cardInputView.expMonthTextField.text = [NSString stringWithFormat:@"%lu", (unsigned long)cardInfo.expiryMonth];
+    self.cardInputView.expYearTextField.text = [NSString stringWithFormat:@"%lu", (unsigned long)cardInfo.expiryYear];
     self.cardInputView.cvvTextField.text = cardInfo.cvv;
     
     [paymentViewController dismissViewControllerAnimated:YES completion:nil];
