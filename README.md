@@ -14,13 +14,15 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 CloudipspOptical is available through [CocoaPods](http://cocoapods.org). To install:
 
 ```ruby
+pod "CloudipspOptical"
+```
+
+Only for Swift projects
+
+```ruby
 pre_install do |installer|
 def installer.verify_no_static_framework_transitive_dependencies; end
 end
-```
-
-```ruby
-pod "CloudipspOptical"
 ```
 
 ## Author
