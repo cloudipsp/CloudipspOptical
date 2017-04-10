@@ -21,5 +21,9 @@ Pod::Spec.new do |s|
   s.frameworks = 'UIKit'
   s.dependency 'Cloudipsp'
   s.dependency 'CardIO'
+  s.pod_target_xcconfig = {
+    'FRAMEWORK_SEARCH_PATHS' => '$(inherited) $(PODS_ROOT)/CardIO',
+    'OTHER_LDFLAGS'          => '$(inherited) -undefined dynamic_lookup'
+  }
 
 end
