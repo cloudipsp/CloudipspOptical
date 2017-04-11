@@ -17,7 +17,7 @@ CloudipspOptical is available through [CocoaPods](http://cocoapods.org). To inst
 pod "CloudipspOptical"
 ```
 
-Only for Swift projects
+if using `use_frameworks!` add follow lines in your Podfile
 
 ```ruby
 pre_install do |installer|
