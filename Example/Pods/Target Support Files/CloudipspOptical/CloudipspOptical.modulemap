@@ -1,0 +1,6 @@
+framework module CloudipspOptical {
+  umbrella header "CloudipspOptical-umbrella.h"
+
+  export *
+  module * { export * }
+}

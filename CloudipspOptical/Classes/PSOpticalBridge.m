@@ -24,6 +24,7 @@
     scanViewController.collectExpiry = NO;
     scanViewController.suppressScanConfirmation = YES;
     scanViewController.suppressScannedCardImage = YES;
+    scanViewController.hideCardIOLogo = YES;
     [viewController presentViewController:scanViewController animated:YES completion:nil];
 }
 
