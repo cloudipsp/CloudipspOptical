@@ -4,7 +4,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CloudipspOptical'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = "Library for accepting payments directly from iOS application's clients with support for scanning the card number."
 
   s.homepage         = 'https://github.com/cloudipsp/CloudipspOptical'
